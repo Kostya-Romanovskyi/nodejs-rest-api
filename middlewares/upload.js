@@ -16,12 +16,3 @@ const upload = multer({
 });
 
 module.exports = upload;
-
-//   filename: (req, file, cb) => {
-//     cb(
-//       null,
-//       Jimp.read(file.originalname, (err, filename) => {
-//         if (err) throw err;
-//         filename.resize(250, 250);
-//     );
-//   },
